@@ -1,4 +1,4 @@
-'''
+﻿'''
 自动化测试的流程
 1、编写测试用例  ===ok
 2、读取excel测试用例数据===ok
@@ -99,7 +99,7 @@ def exec_case(filename,sheetname):
 # 执行注册用例
 exec_case('test_case_api.xlsx',"register")
 # 执行登录用例
-exec_case('test_case_api.xlsx',"login1")
+exec_case('test_case_api.xlsx',"login")
 
 # eval函数的应用
 # '''
